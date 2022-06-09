@@ -27,6 +27,6 @@ You may need to copy data within your Azure Cosmos DB account if you want to ach
 * Download this code as a zip file.
 * Unzip it.
 * Open the folder in [Azure Data Studio](https://docs.microsoft.com/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver15) (File - Open Folder).
-* Run the code cells from either the [SQL container copy notebook](./container-copy-sql.ipynb) or [Cassandra copy container  notebook](./copy-container-cassandra.ipynb).
+* Run the code cells from either the [SQL container copy notebook](./container-copy-sql.ipynb) or [Cassandra copy container  notebook](./container-copy-cassandra.ipynb).
 
 To learn more about intra-account container copy jobs, [refer to this doc.](./IntraAccountContainerCopy-Details%26FAQs.md)
