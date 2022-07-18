@@ -22,11 +22,22 @@ You may need to copy data within your Azure Cosmos DB account if you want to ach
 4. Monitor the progress of the container copy job and wait until it's completed.
 4.	Resume the operations by appropriately pointing the application or client to the source or target container copy as intended.
 
+## Pre-requisites
+
+* Make sure you have [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) downloaded and installed on your machine before trying out container copy.
+
 ## Try out container copy jobs
 
+### Through Azure Data Studio notebooks 
 * Download this code as a zip file.
 * Unzip it.
 * Open the folder in [Azure Data Studio](https://docs.microsoft.com/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver15) (File - Open Folder).
 * Run the code cells from either the [SQL container copy notebook](./container-copy-sql.ipynb) or [Cassandra copy container  notebook](./container-copy-cassandra.ipynb).
+
+### Through Azure CLI
+
+* You may use the commands specified in the [SQL container copy notebook](./container-copy-sql.ipynb) or [Cassandra copy container  notebook](./container-copy-cassandra.ipynb) to create and monitor container copy jobs through Azure CLI.
+
+
 
 To learn more about intra-account container copy jobs, [refer to this doc.](./IntraAccountContainerCopy-Details%26FAQs.md)
