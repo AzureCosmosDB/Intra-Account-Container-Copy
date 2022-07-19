@@ -25,6 +25,7 @@ You may need to copy data within your Azure Cosmos DB account if you want to ach
 ## Pre-requisites
 
 * Make sure you have [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) downloaded and installed on your machine before trying out container copy.
+* Currently, container copy is only supported in [these regions](./SupportedRegions.md). Make sure your account is in one of these regions.
 
 ## Try out container copy jobs
 

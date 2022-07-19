@@ -35,3 +35,9 @@ The container copy job will run in the write region. If there are accounts confi
 
 ### What happens to the container copy jobs when the account's write region changes?
 The account's write region may change in the rare scenario of a region outage or due to manual failover. In such scenario, incomplete container copy jobs created within the account would fail. You would need to recreate such jobs. Recreated jobs would then run against the new (current) write region.
+
+### Why is a new database '_datatransferstate' created in the account when I run container copy jobs?. Am I being charged for this database?
+* '_datatransferstate' is a temporary database that is created while running container copy jobs. This database gets used to store the state and progress of the copy job. 
+* The database uses manual provisioned throughput of 800 RUs. You will be charged for this.
+* Deleting this database will remove the container copy job history from the account. It can be safely deleted once all the jobs have completed, if you no longer need the job history.
+
