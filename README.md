@@ -1,5 +1,7 @@
 # Azure Cosmos DB Intra-account container copy (Private preview)
 
+> **Note:** This capability is now available to use by signing up for the Preview from the Azure Portal. Please refer to https://aka.ms/azurecosmosdb-containercopy to learn more. This repo is outdated and is not managed any longer.
+
 You can perform offline container copy within an Azure Cosmos DB account using container copy jobs.
 
 This functionality is currently available for Azure Cosmos DB **Cassandra API** and **SQL API** accounts.
